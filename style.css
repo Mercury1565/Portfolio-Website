@@ -164,11 +164,11 @@ section{
     height: 80vh;
 }
 
-.section__pic-container{
+.profile__pic-container{
     justify-content: center;
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 370px;
+    width: 370px;
     margin: auto 0;
 }
 
@@ -301,7 +301,7 @@ section{
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: 0.1rem solid;
+    border: 0.2rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
 }
@@ -312,7 +312,47 @@ section{
 }
 
 .section__pic-container{
-    height: 450px;
-    width: 400px;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+    width: 450px;
     margin: auto 0;
+}
+
+/* Experience */
+#experience{
+    position: relative;
+}
+
+.experience-sub-title{
+    color: rgb(25,25,25);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-column-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon{
+    cursor: default;
 }
