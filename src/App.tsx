@@ -115,6 +115,14 @@ function App() {
           >
             <Linkedin size={20} />
           </a>
+            <a
+            href="https://drive.google.com/file/d/1C6aTUjDdCgO0ipKW6UBE5RbAico9v4vo/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-blue-400 transition-colors"
+            >
+            <img src="/cv.png" className="w-5 h-5" />
+            </a>
         </div>
 
         {/* Mobile Navigation Button */}
@@ -137,26 +145,26 @@ function App() {
           ))}
           <div className="flex justify-center space-x-4 mt-4">
             <a
-          href="https://github.com/Mercury1565"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-300 hover:text-blue-400 transition-colors"
-            >
-          <Github size={20} />
+              href="https://github.com/Mercury1565"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-blue-400 transition-colors"
+              >
+              <Github size={20} />
             </a>
             <a
-          href="mailto:hermongetachew10@gmail.com"
-          className="text-gray-300 hover:text-blue-400 transition-colors"
-            >
-          <Mail size={20} />
+              href="mailto:hermongetachew10@gmail.com"
+              className="text-gray-300 hover:text-blue-400 transition-colors"
+              >
+              <Mail size={20} />
             </a>
             <a
-          href="https://www.linkedin.com/in/hermon-getachew"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-300 hover:text-blue-400 transition-colors"
-            >
-          <Linkedin size={20} />
+              href="https://drive.google.com/file/d/1C6aTUjDdCgO0ipKW6UBE5RbAico9v4vo/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-blue-400 transition-colors"
+              >
+             <img src="/cv.png" />
             </a>
           </div>
         </div>
