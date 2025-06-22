@@ -200,7 +200,7 @@ function App() {
               <div className="w-80 h-82 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                   <img
-                    src="../public/hermon.JPG"
+                    src="/hermon.JPG"
                     alt="Hermon Getachew Abdissa"
                     className="w-80 h-88 rounded-full object-cover border-4 border-gray-800"
                   />
